@@ -84,10 +84,10 @@
 - Focuses on **keeping data in sync** across multiple nodes or apps.
 ### Master-Slave
 - Writes happen on the master and changes are copied (sync or async) to the salve(s).
-- ![[sys-design-shenanigans/attachments/CPSC436r 2.jpeg]]
+- ![Master-Slave Diagram](attachments/CPSC436r%202.jpeg)
 ### Master-Master 
 - Both nodes accept writes, and changes are exchanged in both directions to keep data consistent.
-- ![[sys-design-shenanigans/attachments/IMG_68C08BEA6FB7-1.jpeg]]
+- ![Master-Master Diagram](attachments/IMG_68C08BEA6FB7-1.jpeg)
 ## Availability in Parallel vs. in Sequence
 ### In Sequence
 - The entire service depends on each component to be available.
